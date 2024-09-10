@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    margin: 30px 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#treine{
+    color: #89C5CC;
+    font-weight: bold;
+    font-family: Open Sans;
+}
+
+header a{
+    text-decoration: none;
+    font-family: Open Sans;
+    color: #000;
+}
+
+header a:hover{
+    font-weight: bold;
+}
+
+#links{
+    display: flex;
+    justify-content: end;
+    gap: 18px;
+}
+
+main{
+    margin: 90px 42px;
+}
+
+
+main h1{
+    font-family: Mulish;
+    padding: 40px 0px;
+}
+
+main h1 span{
+    color: #89C5CC;
+}
+
+main p{
+    font-family: Open Sans;
+    padding-bottom: 40px;
+}
+
+main p span{
+    font-weight: bold;
+}
+
+main a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Open Sans;
+    color: #fff;
+    background: #69B99D;
+    padding: 16px 22px;
+    border-radius: 5px;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 430px);
+    gap: 300px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: Open Sans;
+    padding: 10px;
+}
+
+footer span{
+    font-weight: bold;
+}
